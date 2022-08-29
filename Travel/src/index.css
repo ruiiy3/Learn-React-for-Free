@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55px; 
+  background: #F55A5A;
+  color: #FFFFFF;
+  gap: 7px;
+}
+nav > h6 {
+  width: 109px;
+  height: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 470px;
+  height: 168px;
+  margin-top: 45px;
+}
+.each{
+  display: flex;
+  flex-direction: row;
+  
+}
+hr {
+  width: 478px;
+  height: 0px;
+  left: 40px;
+  top: 286px;
+  border: 1px solid #F5F5F5;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+.pic{
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+}
+.info{
+  margin-left: 19px;
+  width: 326px;
+  height: 129px;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+.line >  h4 > i {
+  width: 7px;
+  height: 9.55px;
+  color: #F55A5A;
+  
+  margin-bottom: 0px;
+}
+
+.line > h4{
+  height: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-bottom: 0px;
+  color: #2B283A;
+  
+  
+}
+.line > a {
+  width: 106px;
+  height: 13px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 12px;
+  margin-bottom: 0px;
+  margin-top: 13px;
+}
+.info > h3{
+  margin-bottom: 0px;
+  margin-top: 7px;
+  width: 326px;
+  height: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.info > span{
+  width: 319px;
+  height: 11px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  color: #2B283A;
+}
+
+.info > p{
+  width: 326px;
+  height: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 9px;
+/* or 15px */
+
+
+color: #2B283A;
+}
